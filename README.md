@@ -13,8 +13,8 @@ The data is given in CSV (Comma Separated Values) format with 1500 data points, 
 ## Methodology
 - Handled missing data using imputation based on target class and used Local Outlier Factor to remove outliers.
 - Handled class imbalance by over-sampling using SMOTE and Standardized the data.
-- Created voting classifier consisting of Logistic Regression, RF, SVC, XGB and Gaussian NB Classifier using K-fold CV.
+- Created voting classifier consisting of Logistic Regression, Random Forest, Support Vector Classifier, XG Boost and Gaussian Naive Bayes Classifier using K-fold CV.
 
 ## Result
-Got an average CV F1 score of  0.978 and an average CV accuracy of 0.978. 
-Received “Best Project Proposal" award.
+- Got an average CV F1 score of  0.978 and an average CV accuracy of 0.978. 
+- Received “Best Project Proposal" award.
