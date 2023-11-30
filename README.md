@@ -10,11 +10,6 @@ The data is given in CSV (Comma Separated Values) format with 1500 data points, 
 
 **This dataset is uploaded as "Ecoli.csv".**
 
-## Methodology
-- Handled missing data using imputation based on target class and used Local Outlier Factor to remove outliers.
-- Handled class imbalance by over-sampling using SMOTE and Standardized the data.
-- Created voting classifier consisting of Logistic Regression, Random Forest, Support Vector Classifier, XG Boost and Gaussian Naive Bayes Classifier using K-fold CV.
-
 ## Conclusion
 - Identified whether the genes of E. coli bacterium have cell communication function through machine learning, unravelling insights into bacterial behaviour via quorum sensing, and contributing to strategic approaches for infection control.
 - Executed effective data preprocessing by addressing missing data through imputation based on the target class and applying Local Outlier Factor to eliminate outliers, ensuring the dataset's integrity and quality.
