@@ -6,7 +6,7 @@ The primary aim of this project is to build a binary classifier using supervised
 
 ## Data Specification
 
-The data is given in CSV (Comma Separated Values) format with 1500 data points, one for each gene. The dataset has 116 features in total and one target column indicating whether the gene has the function “Cell communication” represented with binary labels 0 (Negative class) or 1 (Positive class). The first 103 columns describe the expression level of genes which are continuous (or numerical) values, and the following 13 columns are nominal (or categorical) features describing gene functional. 
+The data is given in CSV (Comma Separated Values) format with 1500 data points, one for each gene. The dataset has 116 features in total and one target column indicating whether the gene has the function “Cell communication” represented with binary labels 0 (Negative class) or 1 (Positive class). The first 103 columns describe the expression level of genes which are continuous (or numerical) values, and the following 13 columns are nominal (or categorical) features describing gene function. 
 
 **This dataset is uploaded as "Ecoli.csv".**
 
@@ -15,6 +15,10 @@ The data is given in CSV (Comma Separated Values) format with 1500 data points, 
 - Handled class imbalance by over-sampling using SMOTE and Standardized the data.
 - Created voting classifier consisting of Logistic Regression, Random Forest, Support Vector Classifier, XG Boost and Gaussian Naive Bayes Classifier using K-fold CV.
 
-## Result
-- Got an average CV F1 score of  0.978 and an average CV accuracy of 0.978. 
-- Received “Best Project Proposal" award.
+## Conclusion
+- Identified whether the genes of E. coli bacterium have cell communication function through machine learning, unravelling insights into bacterial behaviour via quorum sensing, and contributing to strategic approaches for infection control.
+- Executed effective data preprocessing by addressing missing data through imputation based on the target class and applying Local Outlier Factor to eliminate outliers, ensuring the dataset's integrity and quality.
+- Managed class imbalance by implementing over-sampling via SMOTE and standardizing the data, enhancing the model's ability to generalize across different classes and elevating overall classification performance.
+- Engineered a robust voting classifier, integrating Logistic Regression, Random Forest, Support Vector Classifier, XGBoost, and Gaussian Naive Bayes through K-fold Cross-Validation (CV), resulting in an average CV F1 score of 0.978. 
+- Recognized with Excellence in Proposal award, highlighting the project's significant impact and robust ML architecture.
+
